@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="585.0" prefWidth="849.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pamperedpet.FXMLDocumentController">
+    <children>
+      <Label id="lblTitle" layoutX="23.0" layoutY="22.0" text="Pampered Pets Resort">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label id="lblOwnerName" layoutX="11.0" layoutY="70.0" text="Owner Name:" />
+      <Label id="lblOwnerCell" layoutX="24.0" layoutY="103.0" text="Owner Cell:" />
+      <Label id="lblPetName" layoutX="23.0" layoutY="137.0" text="Pet's Name:" />
+      <Label id="lblPetAge" layoutX="44.0" layoutY="173.0" text="Pet Age:" />
+      <Label id="lblPetShots" layoutX="33.0" layoutY="206.0" text="Pet's Shots:" />
+      <Label id="lblTypePet" layoutX="33.0" layoutY="277.0" text="Type of Pet:" />
+      <Label id="lblSpecialInstructions" layoutX="24.0" layoutY="376.0" text="Special Instructions:" />
+      <TextArea id="txaSpecialInstructions" fx:id="txaSpecialInstructions" layoutX="153.0" layoutY="376.0" prefHeight="95.0" prefWidth="191.0" wrapText="true" />
+      <Pane id="paneType" layoutX="113.0" layoutY="277.0" prefHeight="57.0" prefWidth="75.0" style="-fx-border-style: solid; -fx-border-color: black;">
+         <children>
+            <RadioButton id="radTypeCat" fx:id="radTypeCat" layoutX="3.0" layoutY="5.0" mnemonicParsing="false" text="Cat">
+               <toggleGroup>
+                  <ToggleGroup fx:id="grpType" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton id="radTypeDog" fx:id="radTypeDog" layoutX="3.0" layoutY="30.0" mnemonicParsing="false" text="Dog" toggleGroup="$grpType" />
+            <Group id="grpType" />
+         </children>
+      </Pane>
+      <Pane layoutX="108.0" layoutY="206.0" prefHeight="50.0" prefWidth="152.0" style="-fx-border-style: solid; -fx-border-color: black;">
+         <children>
+            <RadioButton id="radUpToDate" fx:id="radNotUpToDate" layoutX="16.0" layoutY="6.0" mnemonicParsing="false" text="Up To Date">
+               <toggleGroup>
+                  <ToggleGroup fx:id="grpShots" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton id="radNotUpToDate" fx:id="radUpToDate" layoutX="16.0" layoutY="27.0" mnemonicParsing="false" text="Not Up To Date" toggleGroup="$grpShots" />
+         </children>
+      </Pane>
+      <TextField id="txtOwnerName" fx:id="txtOwnerName" layoutX="101.0" layoutY="65.0" prefHeight="27.0" prefWidth="152.0" />
+      <TextField id="txtOwnerCell" fx:id="txtOwnerCell" layoutX="100.0" layoutY="98.0" prefHeight="27.0" prefWidth="125.0" />
+      <TextField id="txtPetName" fx:id="txtPetName" layoutX="104.0" layoutY="132.0" prefHeight="27.0" prefWidth="84.0" />
+      <TextField id="txtPetAge" fx:id="txtPetAge" layoutX="101.0" layoutY="168.0" prefHeight="27.0" prefWidth="45.0" />
+      <Button id="btnCancel" fx:id="btnCancel" layoutX="446.0" layoutY="526.0" mnemonicParsing="false" onMouseClicked="#handleCancelButtonAction" text="Cancel" />
+      <Button id="btnSubmit" fx:id="btnSubmit" layoutX="528.0" layoutY="526.0" mnemonicParsing="false" onMouseClicked="#handleSubmitButtonAction" text="Submit" />
+      <Label layoutX="332.0" layoutY="63.0" text="Length of Stay (max 30 days):" />
+      <TextField id="txtLengthStay" fx:id="txtLengthStay" layoutX="518.0" layoutY="58.0" prefHeight="27.0" prefWidth="61.0" />
+      <Label id="lblSuite" layoutX="300.0" layoutY="101.0" text="Suite Size:" />
+      <Pane id="paneSuite" layoutX="374.0" layoutY="102.0" prefHeight="155.0" prefWidth="458.0" style="-fx-border-color: black;">
+         <children>
+            <RadioButton id="radSuiteLarge" fx:id="radSuiteLarge" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Standard Large (Indoor 4' x 6'/Outdoor 4' x 12')  - $25/day">
+               <toggleGroup>
+                  <ToggleGroup fx:id="grpSuite" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton id="radSuiteXLarge" fx:id="radSuiteXLarge" layoutX="14.0" layoutY="47.0" mnemonicParsing="false" text="Standard Extra-Large (Indoor 5' x 6'/Outdoor 5' x 12') $28." toggleGroup="$grpSuite" />
+            <RadioButton id="radSuiteXXLarge" fx:id="radSuiteXXLarge" layoutX="14.0" layoutY="78.0" mnemonicParsing="false" text="Standard Double Extra Large (Indoor 8' x 6'/Outdoor 8' x 12')$34.00" toggleGroup="$grpSuite" />
+            <RadioButton id="radSuiteLux" fx:id="radSuiteLux" layoutX="14.0" layoutY="114.0" mnemonicParsing="false" text="Luxury Suite (Indoor 6' x 6' / Outdoor 6' x 12') $40.00 " toggleGroup="$grpSuite" />
+         </children>
+      </Pane>
+      <Label layoutX="309.0" layoutY="283.0" text="Services:" />
+      <Pane fx:id="grpServices" layoutX="374.0" layoutY="277.0" prefHeight="224.0" prefWidth="441.0" style="-fx-border-color: black;">
+         <children>
+            <Label id="lblDoses" fx:id="lblDoses" layoutX="309.0" layoutY="14.0" text="Doses:" />
+            <TextField id="txtDoses" fx:id="txtDoses" layoutX="365.0" layoutY="9.0" prefHeight="27.0" prefWidth="42.0" />
+            <CheckBox id="chkMeds" fx:id="chkMeds" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Delivery of medications    $2.50 per dose " />
+            <CheckBox id="chkBathBrush" fx:id="chkBathBrush" layoutX="14.0" layoutY="47.0" mnemonicParsing="false" text="Bath &amp; Brush    $15.00 " />
+            <CheckBox id="chkWalking" fx:id="chkWalking" layoutX="14.0" layoutY="78.0" mnemonicParsing="false" text="Walking    $5.00 " />
+            <CheckBox id="chkPedicure" fx:id="chkPedicure" layoutX="14.0" layoutY="103.0" mnemonicParsing="false" text="Pedicure    $10.00" />
+            <CheckBox id="chkTransport" fx:id="chkTransport" layoutX="14.0" layoutY="133.0" mnemonicParsing="false" text="Transport to vet    $20.00" />
+            <CheckBox id="chkSundayPickup" fx:id="chkSundayPickup" layoutX="14.0" layoutY="162.0" mnemonicParsing="false" text="Sunday pickup    $12.50 " />
+            <CheckBox id="chkFood" fx:id="chkFood" layoutX="14.0" layoutY="192.0" mnemonicParsing="false" text="Resort provided food    $5.00 per day" />
+         </children>
+      </Pane>
+      <Group id="grpShots" />
+    </children>
+</AnchorPane>

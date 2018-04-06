@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JAppletFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="person5Label" max="32767" attributes="0"/>
+                          <Component id="person4Label" max="32767" attributes="0"/>
+                          <Component id="person3Label" max="32767" attributes="0"/>
+                          <Component id="person2Label" max="32767" attributes="0"/>
+                          <Component id="person1Label" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="person1NameField" min="-2" pref="95" max="-2" attributes="0"/>
+                                  <Component id="person2NameField" min="-2" pref="95" max="-2" attributes="0"/>
+                                  <Component id="person3NameField" min="-2" pref="95" max="-2" attributes="0"/>
+                                  <Component id="person4NameField" min="-2" pref="95" max="-2" attributes="0"/>
+                                  <Component id="person5NameField" min="-2" pref="95" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="submitButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="person1SalesField" min="-2" pref="68" max="-2" attributes="0"/>
+                                                  <Component id="person2SalesField" min="-2" pref="68" max="-2" attributes="0"/>
+                                                  <Component id="person3SalesField" min="-2" pref="68" max="-2" attributes="0"/>
+                                                  <Component id="person4SalesField" min="-2" pref="68" max="-2" attributes="0"/>
+                                                  <Component id="person5SalesField" min="-2" pref="68" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="1" attributes="0">
+                                                  <Component id="person1CommissionLabel" min="-2" pref="79" max="-2" attributes="0"/>
+                                                  <Component id="person3CommissionLabel" min="-2" pref="79" max="-2" attributes="0"/>
+                                                  <Component id="person2CommissionLabel" min="-2" pref="79" max="-2" attributes="0"/>
+                                                  <Component id="person4CommissionLabel" min="-2" pref="79" max="-2" attributes="0"/>
+                                                  <Component id="person5CommissionLabel" min="-2" pref="79" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                                              <Component id="salesLabel" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="person4CommissionPercentLabel" min="-2" pref="70" max="-2" attributes="0"/>
+                                          <Component id="person5CommissionPercentLabel" min="-2" pref="70" max="-2" attributes="0"/>
+                                          <Component id="person3CommissionPercentLabel" alignment="1" min="-2" pref="70" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="person1CommissionPercentLabel" min="-2" pref="70" max="-2" attributes="0"/>
+                                          <Component id="commissionPercentLabel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="person2CommissionPercentLabel" alignment="1" min="-2" pref="70" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="titleLabel" min="-2" pref="218" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
+                              <Component id="ResultsLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="194" max="-2" attributes="0"/>
+                      <Component id="nameLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="174" max="-2" attributes="0"/>
+                      <Component id="CommissionLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="43" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="titleLabel" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="ResultsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="nameLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="person1Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="person1NameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="person2Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="person2NameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="person3Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="person3NameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="person4Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="person4NameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="person5Label" alignment="3" max="32767" attributes="0"/>
+                          <Component id="person5NameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="salesLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CommissionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="commissionPercentLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="person1CommissionLabel" max="32767" attributes="0"/>
+                                      <Component id="person1SalesField" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="person1CommissionPercentLabel" min="-2" pref="18" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="person2CommissionLabel" max="32767" attributes="0"/>
+                                      <Component id="person2SalesField" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="person2CommissionPercentLabel" min="-2" pref="18" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="person3SalesField" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="person4SalesField" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="person3CommissionLabel" alignment="0" min="-2" pref="18" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="person3CommissionPercentLabel" min="-2" pref="18" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="person4CommissionPercentLabel" min="-2" pref="18" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="person5CommissionLabel" min="-2" pref="18" max="-2" attributes="0"/>
+                                  <Component id="person5SalesField" min="-2" max="-2" attributes="0"/>
+                                  <Component id="person5CommissionPercentLabel" min="-2" pref="18" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
+                              <Component id="person4CommissionLabel" min="-2" pref="18" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="submitButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="titleLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calculate Sales Commissions"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="person1Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salesperson 1:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="salesLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sales"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="person1NameField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="person1NameFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="person1SalesField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="person1SalesFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="person2Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salesperson 2:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="person2NameField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="person2SalesField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="person3Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salesperson 3:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="person3NameField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="person3SalesField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="person4Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salesperson 4:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="person4NameField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="person4SalesField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="person4SalesFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="person5Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salesperson 5:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="person5NameField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="person5SalesField">
+    </Component>
+    <Component class="javax.swing.JButton" name="submitButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Submit"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="submitButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ResultsLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Results"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="commissionPercentLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="% of total"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="person1CommissionPercentLabel">
+    </Component>
+    <Component class="javax.swing.JLabel" name="person2CommissionPercentLabel">
+    </Component>
+    <Component class="javax.swing.JLabel" name="person3CommissionPercentLabel">
+    </Component>
+    <Component class="javax.swing.JLabel" name="person4CommissionPercentLabel">
+    </Component>
+    <Component class="javax.swing.JLabel" name="person5CommissionPercentLabel">
+    </Component>
+    <Component class="javax.swing.JLabel" name="CommissionLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Commission"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="person1CommissionLabel">
+    </Component>
+    <Component class="javax.swing.JLabel" name="person3CommissionLabel">
+    </Component>
+    <Component class="javax.swing.JLabel" name="person2CommissionLabel">
+    </Component>
+    <Component class="javax.swing.JLabel" name="person4CommissionLabel">
+    </Component>
+    <Component class="javax.swing.JLabel" name="person5CommissionLabel">
+    </Component>
+  </SubComponents>
+</Form>
